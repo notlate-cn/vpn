@@ -24,9 +24,9 @@ jobs:
         run:  pipenv --python python3 && pipenv install
       - name: Build
         env:
-          USERNAME: ${{ secrets.USERNAME }}
-          PASSWORD: ${{ secrets.PASSWORD }}
-          XMLRPC_PHP: ${{ secrets.XMLRPC_PHP }}
+          USERNAME: ${{ secrets.USERNAME1 }}
+          PASSWORD: ${{ secrets.PASSWORD1 }}
+          XMLRPC_PHP: ${{ secrets.XMLRPC_PHP1 }}
         run: pipenv run build
       - name: Commit and push if changed   # 将.md_sha1 README.md 更新到仓库
         run: |
