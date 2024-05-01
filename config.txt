@@ -1,0 +1,5 @@
+{
+    "USERNAME": "xxxx",
+    "PASSWORD": "xxxx",
+    "XMLRPC_PHP": "xxxx"
+}
